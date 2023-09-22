@@ -29,17 +29,17 @@ const Footer = (props) => {
             </div>
             <nav className="footer_nav">
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li><a href="https://www.google.com/">Home</a></li>
+              <li><a href="https://www.google.com/">Services</a></li>
+              <li><a href="https://www.google.com/">Contact Us</a></li>
             </ul>
             </nav>
             <nav className="footer_nav">
             <ul>
-              <li><a href="">Facebook</a></li>
-              <li><a href="">X (Twitter)</a></li>
-              <li><a href="">LinkedIn</a></li>
-              <li><a href="">Instagram</a></li>
+              <li><a href="https://www.google.com/">Facebook</a></li>
+              <li><a href="https://www.google.com/">X (Twitter)</a></li>
+              <li><a href="https://www.google.com/">LinkedIn</a></li>
+              <li><a href="https://www.google.com/">Instagram</a></li>
             </ul>
             </nav>
             <div className="footer_contact_us">

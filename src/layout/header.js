@@ -8,9 +8,9 @@ const Header = (props) => {
        <div className="logo"><img src={props.logo} alt="" /></div>
        <nav>
         <ul>
-          <li><a href="javascript:void(0);">Home</a></li>
-          <li><a href="javascript:void(0);">Services</a></li>
-          <li><a href="javascript:void(0);">Contact Us</a></li>
+          <li><a href="https://www.google.com/">Home</a></li>
+          <li><a href="https://www.google.com/">Services</a></li>
+          <li><a href="https://www.google.com/">Contact Us</a></li>
           <li><a href="tel:+971586747123">{props.icon}<span>+971 58 67 47 123</span></a></li>
         </ul>
        </nav>
