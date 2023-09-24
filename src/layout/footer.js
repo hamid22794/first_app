@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import {Link} from 'react-router-dom'
 
 const Footer = (props) => {
   return (
@@ -29,17 +30,17 @@ const Footer = (props) => {
             </div>
             <nav className="footer_nav">
             <ul>
-              <li><a href="https://www.google.com/">Home</a></li>
-              <li><a href="https://www.google.com/">Services</a></li>
-              <li><a href="https://www.google.com/">Contact Us</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/contact-us">Contact Us</Link></li>
             </ul>
             </nav>
             <nav className="footer_nav">
             <ul>
-              <li><a href="https://www.google.com/">Facebook</a></li>
-              <li><a href="https://www.google.com/">X (Twitter)</a></li>
-              <li><a href="https://www.google.com/">LinkedIn</a></li>
-              <li><a href="https://www.google.com/">Instagram</a></li>
+              <li><a href="https://www.facebook.com/">Facebook</a></li>
+              <li><a href="https://twitter.com/">X (Twitter)</a></li>
+              <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+              <li><a href="https://www.instagram.com/">Instagram</a></li>
             </ul>
             </nav>
             <div className="footer_contact_us">

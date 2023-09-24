@@ -1,0 +1,66 @@
+.banner_grid{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.banner_left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.banner_left h3{
+    border-radius: 30px;
+    background-color: #058B8C;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    width: 115px;
+    padding: 5px 10px;
+}
+
+.banner_left h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.banner_left h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+h1 span{
+    color: #058B8C;
+}
+
+.banner_left p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.btn_banner{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.btn_banner a{
+    text-decoration: none;
+    color: #1E1E1E;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #1E1E1E;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.btn_banner a:hover{
+    color: white;
+    border: none;
+    background-color: #8D0F11;
+}
