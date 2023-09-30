@@ -10,9 +10,15 @@
 body {
   background-color: #f9f9f9;
 }
+
 .page_width {
   width: 1250px;
   margin: auto;
+}
+
+.section_margin{
+  width: 100%;
+  margin: 75px 0px;
 }
 
 header {
@@ -20,6 +26,7 @@ header {
   margin: auto;
   padding: 10px 0px;
 }
+
 .nav_desktop {
   display: flex;
   flex-direction: row;
@@ -98,6 +105,7 @@ header {
   grid-template-columns: 2fr 1fr 1fr 1.5fr;
   gap: 25px;
   padding: 65px 0px;
+  border-bottom: 1.5px solid #8F8F8F;
 }
 
 .footer_about {
@@ -177,4 +185,13 @@ header {
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2),
     3px 4px 10px 0px rgba(0, 0, 0, 0.2) inset;
   padding: 5px 15px;
+}
+
+.copy_right {
+  color: #8F8F8F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px 5px;
 }

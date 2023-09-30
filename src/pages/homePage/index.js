@@ -1,13 +1,16 @@
 import React from "react";
 import Layout from "../../layout";
 import bannerImg from "../../images/home/banner/banner.svg";
-import "./style.css";
+import sunImg from '../../images/home/after_banner/sun.svg'
+import dollarImg from '../../images/home/after_banner/dollar.svg'
+import usersImg from '../../images/home/after_banner/users.svg'
+import './style.css'
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <Layout>
-      <section>
+      <section className="banner_section">
         <div className="page_width">
           <div className="banner_grid">
             <div className="banner_left">
@@ -31,6 +34,24 @@ const HomePage = () => {
                 <img src={bannerImg} alt="" />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="section_margin">
+        <div className="page_width">
+          <div className="after_banner_grid">
+          <div className="after_banner_inner">
+            <div className="after_banner_img"><img src={sunImg} alt="" /></div>
+            <h2>24/7 Service</h2>
+          </div>
+          <div className="after_banner_inner">
+            <div className="after_banner_img"><img src={dollarImg} alt="" /></div>
+            <h2>Reasonable Rates</h2>
+          </div>
+          <div className="after_banner_inner">
+            <div className="after_banner_img"><img src={usersImg} alt="" /></div>
+            <h2>Experienced Team</h2>
+          </div>
           </div>
         </div>
       </section>
