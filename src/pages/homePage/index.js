@@ -4,6 +4,7 @@ import bannerImg from "../../images/home/banner/banner.svg";
 import sunImg from '../../images/home/after_banner/sun.svg'
 import dollarImg from '../../images/home/after_banner/dollar.svg'
 import usersImg from '../../images/home/after_banner/users.svg'
+import ExploreServices from "./components/exploreServices";
 import './style.css'
 import { Link } from "react-router-dom";
 
@@ -55,6 +56,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      <ExploreServices/>
     </Layout>
   );
 };
