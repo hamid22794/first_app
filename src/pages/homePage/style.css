@@ -201,7 +201,6 @@ h1 span {
     display: none;
 }
 
-
 /* Overlay Effect */
 
 .service_card .overlay:hover {
@@ -216,4 +215,97 @@ h1 span {
 
 .service_card .overlay:hover button {
     display: block;
+}
+
+/* Who we are*/
+.who_we_are {
+    padding: 2rem 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title h2 {
+    color: #1E1E1E;
+    font-size: 60px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.title h2 span {
+    color: #058B8C;
+    font-size: 60px;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.who_we_are .left_side {
+    padding: 2rem;
+    width: 100%;
+    background-image: url('../../images/home/banner/bg_banner_shadow.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.who_we_are .left_side img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.who_we_are .right_side {
+    padding: 2rem;
+    width: 100%;
+}
+
+.who_we_are .right_side .text p {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+/* Company Authority*/
+
+.company_authority {
+    padding: 2rem 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #058B8C;
+}
+
+.company_authority .title h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.company_authority .title h2 span {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.company_authority .text p {
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+
+.company_authority .right_side {
+    padding: 2rem;
+    width: 100%;
+    background-image: url('../../images/home/banner/bg_banner_shadow.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.company_authority .right_side img{
+    width: 100%;
+    border-radius: 50%;
 }

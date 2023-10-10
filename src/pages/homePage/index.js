@@ -5,6 +5,8 @@ import sunImg from '../../images/home/after_banner/sun.svg'
 import dollarImg from '../../images/home/after_banner/dollar.svg'
 import usersImg from '../../images/home/after_banner/users.svg'
 import ExploreServices from "./components/exploreServices";
+import WhoWeAre from "./components/whoWeAre";
+import CompanyAuthority from "./components/companyAuthority";
 import './style.css'
 import { Link } from "react-router-dom";
 
@@ -57,6 +59,8 @@ const HomePage = () => {
         </div>
       </section>
       <ExploreServices/>
+      <WhoWeAre/>
+      <CompanyAuthority/>
     </Layout>
   );
 };

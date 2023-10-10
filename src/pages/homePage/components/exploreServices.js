@@ -17,7 +17,6 @@ const ExploreServices = () => {
             </h2>
             <div />
           </div>
-
           <div className="explore_services">
             <ServiceCard cardImage={ServiceCardAc} title="AC Services" />
             <ServiceCard cardImage={ServiceCardDuct} title="Duct Cleaning" />
