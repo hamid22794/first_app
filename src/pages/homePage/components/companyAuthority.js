@@ -1,12 +1,12 @@
 import React from "react";
-import CompanyImg from '../../../images/home/company_authority/company_authority.webp';
+import CompanyImg from "../../../images/home/company_authority/company_authority.webp";
 
 const CompanyAuthority = () => {
   return (
     <div>
-    <div className="page_width">
-      <div className="company_authority">
-        
+      <section className="company_authority section_margin">
+        <div className="page_width">
+        <div className="company_authority_grid">
           <div className="left_side">
             <div className="title">
               <h2>
@@ -34,10 +34,11 @@ const CompanyAuthority = () => {
             </div>
           </div>
           <div className="right_side">
-          <img src={CompanyImg} alt="" />
+            <img src={CompanyImg} alt="" />
+          </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

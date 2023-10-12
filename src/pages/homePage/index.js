@@ -7,6 +7,7 @@ import usersImg from '../../images/home/after_banner/users.svg'
 import ExploreServices from "./components/exploreServices";
 import WhoWeAre from "./components/whoWeAre";
 import CompanyAuthority from "./components/companyAuthority";
+import OurClients from "./components/ourClients";
 import './style.css'
 import { Link } from "react-router-dom";
 
@@ -61,6 +62,7 @@ const HomePage = () => {
       <ExploreServices/>
       <WhoWeAre/>
       <CompanyAuthority/>
+      <OurClients/>
     </Layout>
   );
 };

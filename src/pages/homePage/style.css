@@ -267,10 +267,16 @@ h1 span {
 /* Company Authority*/
 
 .company_authority {
-    padding: 2rem 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     background-color: #058B8C;
+}
+
+.company_authority_grid {
+    grid-gap: 75px;
+    display: grid;
+    gap: 75px;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+    width: 100%;
 }
 
 .company_authority .title h2 {
@@ -305,7 +311,96 @@ h1 span {
     background-position: right center;
 }
 
-.company_authority .right_side img{
+.company_authority .right_side img {
     width: 100%;
     border-radius: 50%;
+}
+
+/* Our CLients*/
+
+.our_clients {
+    padding: 3rem .5rem;
+}
+
+.our_clients .header_part {
+    text-align: center;
+}
+
+.our_clients .header_part p {
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.client_reviews_grid {
+    grid-gap: 12px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.client_reviews_grid .our_client_card {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 250px;
+    padding: 20px;
+    width: 350px;
+}
+
+.card_top {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.card_top_left img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.card_top_left .top_right_text {
+    width: 75%;
+}
+
+.card_top_left .top_right_text h2 {
+    color: #1E1E1E;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+.card_top_right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.top_right_bottom_text {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.card_bottom p{
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    width: 100%;
 }
