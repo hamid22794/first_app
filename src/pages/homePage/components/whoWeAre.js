@@ -24,6 +24,7 @@ const WhoWeAre = () => {
                 pride is providing the most extensive range of services. From
                 home maintenance to personal assistance.
               </p>
+              
               <p>
                 We make sure that your safety is never compromised. This is why
                 we hire all the staff under the roof of Home Comfort, just for
