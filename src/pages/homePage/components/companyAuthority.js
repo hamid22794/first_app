@@ -23,6 +23,7 @@ const CompanyAuthority = () => {
                 companies online and get the best company that meets up your
                 demands.
               </p>
+              <br />
               <p>
                 Home Comfort is a leading multiple service provider company
                 catering to your 360 needs with quality guaranteed. The aim and

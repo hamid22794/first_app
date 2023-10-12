@@ -1,6 +1,11 @@
 import React from "react";
-import { AiFillStar } from "react-icons/ai";
 import ClientOneImg from "../../../images/home/our_clients/Client1.webp";
+import ClientTwoImg from '../../../images/home/our_clients/Client2.webp';
+import ClientThreeImg from '../../../images/home/our_clients/Client3.webp';
+import ClientFourImg from '../../../images/home/our_clients/Client4.webp';
+import ClientFiveImg from '../../../images/home/our_clients/Client5.webp';
+import ClientSixImg from '../../../images/home/our_clients/Client6.webp';
+import ReviewCard from "../../../components/reviewCard";
 
 const OurClients = () => {
   return (
@@ -8,7 +13,7 @@ const OurClients = () => {
       <div className="page_width">
         <div className="our_clients">
           <div className="header_part">
-            <div className="title">
+            <div className="our_client_title">
               <h2>
                 Our <span>Clients</span>
               </h2>
@@ -22,35 +27,12 @@ const OurClients = () => {
             </p>
           </div>
           <div className="client_reviews_grid">
-            <div className="our_client_card">
-              <div className="card_top">
-                <div className="card_top_left">
-                  <img src={ClientOneImg} alt="" />
-                </div>
-                <div className="card_top_right">
-                  <div className="top_right_text">
-                    <h2>Alena Herwitz</h2>
-                  </div>
-                  <div className="top_right_bottom_text">
-                    <p>3 Months ago</p>
-                    <div className="star_rating">
-                      <AiFillStar color="#FFB800" />
-                      <AiFillStar color="#FFB800" />
-                      <AiFillStar color="#FFB800" />
-                      <AiFillStar color="#FFB800" />
-                      <AiFillStar color="#FFB800" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card_bottom">
-                <p>
-                  We make sure that your safety is never compromised. This is
-                  why we hire all the staff under the roof of Home Comfort, just
-                  for your satisfaction.
-                </p>
-              </div>
-            </div>
+            <ReviewCard reviewImg={ClientOneImg} />
+            <ReviewCard reviewImg={ClientTwoImg} />
+            <ReviewCard reviewImg={ClientThreeImg} />
+            <ReviewCard reviewImg={ClientFourImg} />
+            <ReviewCard reviewImg={ClientFiveImg} />
+            <ReviewCard reviewImg={ClientSixImg} />
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const ExploreServices = () => {
             <h2>
               Explore our <span> Services </span>
             </h2>
-            <div />
+            <div/>
           </div>
           <div className="explore_services">
             <ServiceCard cardImage={ServiceCardAc} title="AC Services" />

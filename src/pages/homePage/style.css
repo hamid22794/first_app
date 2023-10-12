@@ -279,7 +279,15 @@ h1 span {
     width: 100%;
 }
 
+.company_authority_grid .left_side{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+}
+
 .company_authority .title h2 {
+    padding: 20px 0px;
     color: white;
     font-size: 60px;
     font-weight: 400;
@@ -294,13 +302,12 @@ h1 span {
 }
 
 .company_authority .text p {
-    margin-top: 20px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 35px;
-    word-wrap: break-word;
+    line-height: 30px;
+    text-align: justify;
 }
 
 .company_authority .right_side {
@@ -319,17 +326,35 @@ h1 span {
 /* Our CLients*/
 
 .our_clients {
-    padding: 3rem .5rem;
+    padding: 3rem 0.5rem;
 }
 
 .our_clients .header_part {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.our_client_title h2 {
+    color: #1E1E1E;
+    font-size: 40px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.our_client_title h2 span {
+    color: #058B8C;
+    font-size: 40px;
+    font-weight: 700;
+    word-wrap: break-word;
 }
 
 .our_clients .header_part p {
     color: #1e1e1e;
-    font-family: Rubik;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
@@ -338,17 +363,16 @@ h1 span {
 }
 
 .client_reviews_grid {
-    grid-gap: 12px;
     display: grid;
-    gap: 12px;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
     width: 100%;
 }
 
 .client_reviews_grid .our_client_card {
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .1);
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.12);
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -376,31 +400,26 @@ h1 span {
 
 .card_top_left .top_right_text h2 {
     color: #1E1E1E;
-    font-size: 33px;
     font-weight: 700;
     line-height: 45px;
     word-wrap: break-word;
 }
 
-.card_top_right{
+.card_top_right {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 100%;
 }
 
 .top_right_bottom_text {
     display: flex;
     gap: 16px;
-    width: 100%;
 }
 
-.card_bottom p{
+.card_bottom p {
     color: #1e1e1e;
-    font-family: Rubik;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
-    width: 100%;
 }
