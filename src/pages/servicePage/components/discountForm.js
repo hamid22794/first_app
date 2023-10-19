@@ -13,9 +13,9 @@ export const DiscountForm = () => {
           <div className="input_grid">
             <div className="input_fields">
               <input type="text" name="name" placeholder="Enter Name" />
-              <input type="email" name="email" placeholder="Enter Email" />
+              <input type="email" name="email" placeholder="Enter E-mail" />
               <input type="phone" name="phone" placeholder="Enter phone" />
-              <select name="Select Service" className="minimal" id="">
+              <select name="Select Service" className="arrow" id="">
                 <option hidden className="select_service">
                   {" "}
                   Select Service{" "}
@@ -30,7 +30,7 @@ export const DiscountForm = () => {
               </select>
             </div>
           </div>
-          <div className="message_area">
+          <div className="message">
             <textarea
               name="message"
               id=""
@@ -38,7 +38,7 @@ export const DiscountForm = () => {
               style={{ width: "100%", height: "160px" }}
             ></textarea>
           </div>
-          <div className="send_btn">
+          <div className="btn_send">
             <button> SEND </button>
           </div>
         </form>

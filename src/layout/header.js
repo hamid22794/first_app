@@ -7,7 +7,9 @@ const Header = (props) => {
       <div className="page_width">
         <div className="nav_desktop">
           <div className="logo">
-            <img src={props.logo} alt="" />
+            <a href="/">
+              <img src={props.logo} alt="" />
+            </a>
           </div>
           <nav>
             <ul>
@@ -19,7 +21,7 @@ const Header = (props) => {
                 <div className="services_submenu">
                   <ul>
                     <li>
-                      <a href="/">AC Services</a>
+                      <a href="/services">AC Services</a>
                     </li>
                     <li>
                       <a href="/">Duct Cleaning</a>

@@ -4,6 +4,8 @@ import CompanyAuthority from "../homePage/components/companyAuthority";
 import { Link } from "react-router-dom";
 import "./style.css";
 import { DiscountForm } from "./components/discountForm";
+import ProvidedSolutions from "./components/providedSolutions";
+import OurBenefits from "./components/ourBenefits";
 
 const ServicePage = () => {
   return (
@@ -29,7 +31,9 @@ const ServicePage = () => {
         </div>
       </section>
       <DiscountForm />
+      <ProvidedSolutions />
       <CompanyAuthority />
+      <OurBenefits />
     </Layout>
   );
 };

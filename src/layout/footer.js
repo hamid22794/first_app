@@ -20,7 +20,9 @@ const Footer = (props) => {
           <div className="footer_inner_grid">
             <div className="footer_about">
               <div className="footer_logo">
-                <img src={props.logo} alt="" />
+                <a href="/">
+                  <img src={props.logo} alt="" />
+                </a>
               </div>
               <p>
                 We make sure that your safety is never compromised. This is why

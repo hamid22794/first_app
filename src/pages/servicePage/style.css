@@ -126,8 +126,10 @@ select {
     border: 2px solid #E4E4E4;
     color: #707070;
     outline: none;
-    padding: 0 25px;
-    margin: 0;
+    padding: 0px 25px;
+
+    /*this code is done to remove default drop-down arrow and implement home comfort drop-down arrow*/
+    margin: 0px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -135,14 +137,14 @@ select {
     -moz-appearance: none;
 }
 
-select.minimal {
+select.arrow {
     background-image: url('../../images/service_page/discount/drop_down_arrow.svg');
     background-position: center right 20px;
     background-size: 20px;
     background-repeat: no-repeat;
 }
 
-.message_area textarea {
+.message textarea {
     border-radius: 16px;
     border: 2px solid #E4E4E4;
     outline: none;
@@ -152,7 +154,7 @@ select.minimal {
     margin-bottom: 15px;
 }
 
-.send_btn button {
+.btn_send button {
     float: right;
     color: white;
     font-size: 16px;
@@ -164,4 +166,180 @@ select.minimal {
     padding: 5px 75px;
     border: none;
     margin-bottom: 20px;
+}
+
+.provided_solutions {
+    background-color: #F9F9F9;
+}
+
+.provided_solutions_grid {
+    grid-gap: 75px;
+    display: grid;
+    gap: 75px;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.provided_solutions_grid .ps_left_side {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+}
+
+.provided_solutions .ps_title h2 {
+    padding: 20px 0px;
+    color: #1E1E1E;
+    font-size: 60px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.provided_solutions .ps_title h2 span {
+    color: #058B8C;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.provided_solutions .text p {
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.provided_solutions .ps_right_side {
+    padding: 2rem;
+    width: 100%;
+    background-image: url('../../images/home/banner/bg_banner_shadow.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.provided_solutions .ps_right_side img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.provided_solutions_1 {
+    padding: 2rem 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ps1_left_side {
+    padding: 2rem;
+    width: 100%;
+    background-image: url('../../images/home/banner/bg_banner_shadow.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.ps1_left_side img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.ps1_right_side {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.ps_1_text p {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+.our_benefits_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 42px;
+}
+
+.our_benefits_title h2 {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.our_benefits_title h2 span {
+    color: #058b8c;
+    font-weight: 700;
+}
+
+.our_benefits_title p {
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.our_benefits_body_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.our_benefits_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.our_benefits_card_img {
+    width: 150px;
+    height: 150px;
+    padding: 35px;
+    border-radius: 400px;
+    background: #f8f8f8;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.our_benefits_card_img img {
+    width: 100%;
+}
+
+.our_benefits_card h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.our_benefits_card h3 {
+    color: #c4c4c4;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all, 0.9s;
+}
+
+.our_benefits_card:hover h3 {
+    color: #000;
+}
+
+.our_benefits_card p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    width: 75%;
+    font-weight: 400;
+    line-height: 30px;
 }
