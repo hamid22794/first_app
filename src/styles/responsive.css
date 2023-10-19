@@ -1,0 +1,39 @@
+@media screen and (max-width:850px) {
+    .nav_desktop .menu_bar {
+        display: block;
+    }
+
+    .nav_desktop nav ul li {
+        display: none;
+    }
+
+    .nav_desktop nav ul li:last-child {
+        display: block;
+    }
+
+    .nav_desktop nav ul li:last-child a span {
+        display: none;
+    }
+
+    .client_reviews_grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .our_client_reviews {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .our_client_reviews {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .our_client_reviews {
+        grid-template-columns: 1fr !important;
+    }
+}
